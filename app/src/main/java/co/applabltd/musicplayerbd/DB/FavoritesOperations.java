@@ -1,6 +1,5 @@
-package co.applabltd.musicplayerbd.sqlitebd;
+package co.applabltd.musicplayerbd.DB;
 
-import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -8,10 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import co.applabltd.musicplayerbd.Model.SongsList;
 
 import java.util.ArrayList;
-
-import co.applabltd.musicplayerbd.models.SongsList;
 
 public class FavoritesOperations {
 
@@ -60,7 +58,7 @@ public class FavoritesOperations {
         ArrayList<SongsList> favSongs = new ArrayList<>();
         if (cursor.getCount() > 0) {
             while (cursor.moveToNext()) {
-                @SuppressLint("Range") SongsList songsList = new SongsList(cursor.getString(cursor.getColumnIndex(FavoritesDBHandler.COLUMN_TITLE))
+                SongsList songsList = new SongsList(cursor.getString(cursor.getColumnIndex(FavoritesDBHandler.COLUMN_TITLE))
                         , cursor.getString(cursor.getColumnIndex(FavoritesDBHandler.COLUMN_SUBTITLE))
                         , cursor.getString(cursor.getColumnIndex(FavoritesDBHandler.COLUMN_PATH)));
                 favSongs.add(songsList);
@@ -81,7 +79,6 @@ public class FavoritesOperations {
     }
 
 }
-
 
 
 

@@ -1,9 +1,5 @@
 <resources>
-    <string name="app_name">Music Player</string>
-    <string name="forward"><![CDATA[>>]]></string>
-    <string name="pause">||</string>
-    <string name="back"><![CDATA[<<]]></string>
-    <string name="rewind"><![CDATA[>>]]></string>
+    <string name="app_name">Nav Music</string>
 
     <string name="title">Nav Music</string>
     <string name="theme_color">Theme Color</string>

@@ -1,4 +1,4 @@
-package co.applabltd.musicplayerbd.models;
+package co.applabltd.musicplayerbd.Model;
 
 public class SongsList {
 
@@ -34,4 +34,3 @@ public class SongsList {
     }
 
 }
-

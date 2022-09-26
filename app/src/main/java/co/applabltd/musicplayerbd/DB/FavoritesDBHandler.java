@@ -1,4 +1,4 @@
-package co.applabltd.musicplayerbd.sqlitebd;
+package co.applabltd.musicplayerbd.DB;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -35,4 +35,3 @@ public class FavoritesDBHandler extends SQLiteOpenHelper {
         db.execSQL(TABLE_CREATE);
     }
 }
-

@@ -4,8 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/musicplayer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/drawer_header_layout.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/fragment_current_song.xml" value="0.2359375" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/fragment_tab.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/fragments_tab.xml" value="0.25" />
         <entry key="..\:/musicplayer/app/src/main/res/layout/items_playlist.xml" value="0.25" />
         <entry key="..\:/musicplayer/app/src/main/res/layout/layout_player.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/player_layout.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/layout/playlist_items.xml" value="0.25" />
+        <entry key="..\:/musicplayer/app/src/main/res/menu/action_bar_menu.xml" value="0.264" />
+        <entry key="..\:/musicplayer/app/src/main/res/menu/navigation_menu.xml" value="0.264" />
       </map>
     </option>
   </component>
